@@ -33,7 +33,7 @@ public class StringMethods {
 		System.out.println(str1.equals("welcome")); //true
 		System.out.println(str1.equalsIgnoreCase(str2)); // true
 		
-		//replace method replace single character or multiple string
+		//replace method- replace single character or multiple string
 		String s="welcome to selenium java selenium pythod selenium c#";
 		System.out.println(s.replace("m", "Z"));
 		System.out.println(s.replace("selenium", "playwrite"));
@@ -45,7 +45,7 @@ public class StringMethods {
 		System.out.println(str1.substring(3, 6));
 		
 		
-		//toUpperCase()  and to LowerCase()
+		//toUpperCase()  and toLowerCase()
 		/*System.out.println(s1.toUpperCase());
 		System.out.println(s1.toLowerCase());
 		*/
@@ -53,12 +53,12 @@ public class StringMethods {
 		//split() split the string into multiple parts based on delimeter
 		// // * % ^ ( ) - you cannot use as delimeter
 		
-		/*s="abs@gmail.com";
-		String a[]=s.split("@");
+		String string="abs@gmail.com";
+		String a[]=string.split("@");
 		System.out.println(Arrays.toString(a));
 		System.out.println(a[0]);
 		System.out.println(a[1]);		
-		*/
+		
 		
 		//exp1
 		String amount="$14,16,19";

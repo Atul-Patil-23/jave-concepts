@@ -9,7 +9,7 @@ public class Employee {
 	int sal;
 	
 	// Methods
-	void show()  // void means this method return nothing
+	void show()  // void means - this method return nothing
 	{
 		System.out.println(eid);
 		System.out.println(name);

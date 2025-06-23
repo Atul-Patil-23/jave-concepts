@@ -3,7 +3,7 @@ package day16;
 interface Shape
 {
 	// Interface contains variables and methods
-	// Variable inside interface is static and final
+	// Variable inside interface is static and final 
 	int length=10;   
 	int width=20;
 	

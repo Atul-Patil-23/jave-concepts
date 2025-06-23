@@ -1,9 +1,11 @@
 
+
 package day2;
 
 public class Data_Types {
 
 	public static void main(String[] args) {
+		// byte, short, int, long, float, double, char, boolean , String 
 		
 		//number without decimal
 		

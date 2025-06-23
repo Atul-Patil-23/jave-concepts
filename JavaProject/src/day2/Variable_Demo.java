@@ -8,9 +8,9 @@ public class Variable_Demo {
 		
 		/* int a=100;  // declaration+Assignment
 		System.out.println(a); // output 100
-		System.out.println("a");// output-a
+		System.out.println("a");// output- a
 		a= 200;
-		System.out.println(a);
+		System.out.println(a);  // 200
 		*/
 		
 		//Approach1 - If all variables belongs to different data type
