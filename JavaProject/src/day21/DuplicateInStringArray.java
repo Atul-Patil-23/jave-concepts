@@ -17,7 +17,7 @@ public class DuplicateInStringArray {
 			}
 		}
 	
-		if (status=false) {
+		if (status==false) {
             System.out.println("No duplicates found.");
         }
 	}

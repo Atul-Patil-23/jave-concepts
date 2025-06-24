@@ -28,7 +28,8 @@ public class CountCharFrequencyInString {
         }
 
         // Print the character frequencies
-        for (Map.Entry<Character, Integer> entry : freqMap.entrySet()) {
+        for (Map.Entry<Character, Integer> entry : freqMap.entrySet()) 
+        {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
 

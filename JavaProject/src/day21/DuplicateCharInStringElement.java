@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class DuplicateCharInStringElement {
 
 	public static void main(String[] args) {
-		 String word = "programming";
+		 String word = "Programming";
 
 	        // Convert to lowercase for case-insensitive comparison (optional)
 	        word = word.toLowerCase();
@@ -21,7 +21,8 @@ public class DuplicateCharInStringElement {
 	        	In that case, it’s a duplicate, so it’s added to the duplicates set.
 	        	*/
 	        	
-	            if (!seen.add(ch)) {
+	            if (!seen.add(ch)) 
+	            {
 	                duplicates.add(ch);
 	            }
 	        }

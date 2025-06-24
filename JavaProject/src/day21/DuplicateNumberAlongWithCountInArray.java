@@ -25,11 +25,10 @@ public class DuplicateNumberAlongWithCountInArray {
 
         // Print duplicates with count
         System.out.println("Duplicate numbers and their counts:");
-        for (Map.Entry<Integer, Integer> entry : countMap.entrySet()) {
-            if (entry.getValue() > 1) 
-            {
-                System.out.println(entry.getKey() + " → " + entry.getValue() + " times");
-            }
+        for (Map.Entry<Integer, Integer> entry : countMap.entrySet()) 
+        {    
+           System.out.println(entry.getKey() + " → " + entry.getValue() + " times");
+        
         }
 
 	}
