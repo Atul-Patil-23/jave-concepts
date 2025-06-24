@@ -27,9 +27,12 @@ public class DuplicateCharInStringElement {
 	        }
 
 	        // Output result
-	        if (duplicates.isEmpty()) {
+	        if (duplicates.isEmpty()) 
+	        {
 	            System.out.println("No duplicate characters found.");
-	        } else {
+	        } 
+	        else 
+	        {
 	            System.out.println("Duplicate characters:");
 	            for (char ch : duplicates) {
 	                System.out.println(ch);

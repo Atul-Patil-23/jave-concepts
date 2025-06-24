@@ -10,15 +10,18 @@ public class PrimeNumberUpto100 {
 	            boolean isPrime = true;
 
 	            // Check visibility from 2 to number - 1
-	            for (int i = 2; i < number; i++) {
-	                if (number % i == 0) {
+	            for (int i = 2; i < number; i++) 
+	            {
+	                if (number % i == 0) 
+	                {
 	                    isPrime = false;
 	                    break;
 	                }
 	            }
 
 	            // Print if prime
-	            if (isPrime) {
+	            if (isPrime) 
+	            {
 	                System.out.print(number + " ");
 	            }
 	        }

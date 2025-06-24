@@ -35,7 +35,6 @@ public class CheckTwoArrayEqual {
 			}
 		}
 		
-		
 		if(status==true)
 		{
 			System.out.println("Both arrays are equal");

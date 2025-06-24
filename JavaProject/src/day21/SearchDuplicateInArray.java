@@ -13,17 +13,22 @@ public class SearchDuplicateInArray {
         HashSet<Integer> duplicates = new HashSet<>();
 
         // Check for duplicates
-        for (int num : numbers) {
-            if (!seen.add(num)) {
+        for (int num : numbers) 
+        {
+            if (!seen.add(num)) 
+            {
                 // Already seen, so it's a duplicate
                 duplicates.add(num);
             }
         }
 
         // Print results
-        if (duplicates.isEmpty()) {
+        if (duplicates.isEmpty()) 
+        {
             System.out.println("No duplicates found.");
-        } else {
+        } 
+        else 
+        {
             System.out.println("Duplicate elements found:");
             for (int dup : duplicates) {
                 System.out.println(dup);
